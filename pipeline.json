@@ -1,0 +1,13 @@
+{
+  "promotion": "auto",
+  "stages": {
+    "staging": {
+      "testsetup": "staging-testsetup-script",
+      "test": "staging-test-script"
+    },
+    "production": {
+      "testsetup": "production-testsetup-script",
+      "test": "production-test-script"
+    }
+  }
+}
